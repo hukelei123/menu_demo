@@ -1,0 +1,68 @@
+.box_div{
+	margin:50px auto auto 50px;
+	padding:0px;
+	width:220px;
+	 border: 1px solid #ccc;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	background: #eee;
+}
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 220px;
+	float: left;
+}
+.treeview .hitarea {
+	margin:12px 0px 12px 10px;
+	width:16px;
+	height: 16px;
+	cursor: pointer;
+	float: left;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+.treeview li { 
+	margin: 1px 0 0px 0;
+	padding:0px;
+	width: 220px;
+	float: left;
+}
+
+.treeview .hover { color: red; cursor: pointer; }
+/**开*/
+.collapsable-hitarea{
+	background: url("../images/minus.gif") no-repeat;
+}
+/**关*/
+.expandable-hitarea{
+	background: url("../images/plus.gif") no-repeat;
+}
+.treeview li span{
+	font-family: Verdana, helvetica, arial, sans-serif;
+	font-size: 68.75%;
+	color: #333;
+	width: 170px;padding:10px 10px 10px 10px;height: 20px;float: right;
+}
+.treeview li span.z1{
+	background-color: #666;
+}
+.treeview li span.z2{
+	background-color: #aaa;
+}
+.treeview li span.z3{
+	background-color: #ddd;
+}
+.treeview li span.z4{
+	background-color: #fff;
+	width: 170px;padding:10px 10px 10px 10px;height: 20px;float: right;
+}
